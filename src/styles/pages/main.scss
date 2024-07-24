@@ -1,0 +1,49 @@
+.main {
+  background-color: #f8f8f8;
+
+  &-text {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 50px;
+  }
+
+  &-item {
+    text-align: center;
+    display: flex;
+    width: 300px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &__text {
+
+
+      h3 {
+        font-size: 18px;
+        color: #333;
+      }
+
+      p {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+      }
+    }
+  }
+
+  &-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+
+

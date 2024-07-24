@@ -1,0 +1,121 @@
+.product {
+
+
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  &__item {
+    height: 400px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    margin: 0 10px 10px 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    &-info {
+      margin-top: auto;
+    }
+
+    &-name {
+      font-weight: bold;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: #ffffff;
+      border: none;
+    }
+  }
+
+  &-block {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+
+    &__description {
+      width: 400px;
+      padding: 20px 0;
+      align-self: flex-start;
+
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      p {
+
+      }
+    }
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  align-self: flex-start;
+}
+
+.card-content {
+  padding: 20px; /* Внутренний отступ */
+  background-color: white; /* Белый фон */
+}
+
+.price {
+  font-size: 24px; /* Размер шрифта для цены */
+  font-weight: bold; /* Жирный шрифт */
+  margin: 0; /* Убираем отступы */
+}
+
+.status {
+  color: green; /* Зеленый цвет текста */
+  font-size: 16px; /* Размер шрифта для статуса */
+  display: flex; /* Flex-контейнер для выравнивания */
+  align-items: center; /* Выравнивание по центру вертикально */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+.status .dot {
+  width: 8px; /* Ширина кружка */
+  height: 8px; /* Высота кружка */
+  background-color: green; /* Цвет кружка */
+  border-radius: 50%; /* Закругление до круга */
+  margin-right: 8px; /* Отступ справа */
+}
+
+.card-footer {
+  background-color: #4eb6e6; /* Голубой фон для нижней части */
+  text-align: center; /* Центрирование текста */
+  padding: 15px; /* Внутренний отступ */
+}
+
+.buy-button {
+  background: none; /* Убираем фон */
+  border: none; /* Убираем границу */
+  color: white; /* Белый цвет текста */
+  font-size: 16px; /* Размер шрифта */
+  font-weight: bold; /* Жирный шрифт */
+  cursor: pointer; /* Курсор указателя */
+}
+
+.buy-button:hover {
+  text-decoration: underline; /* Подчеркнуть текст при наведении */
+}
