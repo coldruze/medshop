@@ -4,6 +4,7 @@ import App from './App';
 import UserStore from "./store/UserStore";
 import ProductStore from "./store/ProductStore";
 
+//Context
 export const Context = createContext(null);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
